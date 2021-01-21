@@ -1,0 +1,10 @@
+[
+	{"name": "Residential"},
+	{"name": "Exterior"},
+	{"name": "Interior"},
+	{"name": "Landscape"},
+	{"name": "Retail"},
+	{"name": "Public"},
+	{"name": "Office"},
+	{"name": "F&B"}
+]

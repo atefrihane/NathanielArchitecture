@@ -1,0 +1,1062 @@
+.accelarate {
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0)
+}
+
+#content {
+    top: 0;
+    right: 50px;
+    bottom: 50px;
+    left: 50px;
+    position: absolute;
+    overflow: hidden
+}
+
+#push {
+    display: none;
+    height: 200px;
+    background: -999em no-repeat;
+    overflow: hidden;
+    z-index: 2
+}
+
+.sub #content {
+    margin: 0 0 -146px 0px;
+    position: relative;
+    overflow: hidden
+}
+
+.sub #push {
+    height: 146px
+}
+
+#showcase #nav li.showcase a,
+#about #nav li.about a,
+#contact #nav li.contact a,
+#projects #nav li.projects a,
+#portfolio #nav li.portfolio a,
+#downloads #nav li.downloads a {
+    text-decoration: underline;
+    color: #666
+}
+
+#showcase #nav li.showcase a:hover,
+#about #nav li.about a:hover,
+#contact #nav li.contact a:hover,
+#projects #nav li.projects a:hover,
+#portfolio #nav li.portfolio a:hover,
+#downloads #nav li.downloads a:hover {
+    color: #ccc
+}
+
+#showcase #container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    z-index: 1;
+    background: #fff;
+    margin: 0 auto 150px auto
+}
+
+#showcase #container img {
+    background: #fff;
+    margin: 0
+}
+
+#showcase #loaderOverlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff
+}
+
+#showcase img {
+    display: none
+}
+
+#showcase #content img {
+    display: block;
+    margin: 0 0 50px 0
+}
+
+#showcase .gallery {
+    display: none
+}
+
+#content #container {
+    margin: 50px 0 150px 0
+}
+
+#content #container a.prevBtn,
+#content #container a.nextBtn {
+    position: absolute;
+    width: 525px;
+    height: 100%;
+    top: -50px;
+    margin: 0;
+    z-index: 50;
+    display: block;
+    overflow: hidden;
+    text-indent: -1000em;
+    top: -50px;
+    outline: none
+}
+
+#content img {
+    height: auto !important;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden
+}
+
+#content #wall {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    bottom: 200px;
+    left: 0;
+    background: #fff
+}
+
+#content #wall ul {
+    margin: 0;
+    padding: 0
+}
+
+#content #wall img {
+    display: block;
+    position: relative;
+    margin: 0 auto 50px auto
+}
+
+#content #wall .wall .prevBtn,
+#content #wall .wall .nextBtn {
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    width: 400px;
+    height: 100%;
+    overflow: hidden;
+    text-indent: -3000em
+}
+
+img.imgLoader {
+    position: absolute;
+    top: -3000em;
+    visibility: hidden
+}
+
+#thumbs {
+    margin: 50px 0 0 200px;
+    padding: 0;
+    float: left;
+    padding: 0 0 1px 0
+}
+
+#thumbs .prevBtn,
+#thumbs .nextBtn {
+    position: absolute;
+    width: 30px;
+    height: 100%;
+    margin: 0;
+    z-index: 2;
+    display: block;
+    overflow: hidden;
+    text-indent: -3000em;
+    top: -100px
+}
+
+#thumbs .prevBtn {
+    left: 150px;
+    background: #fff no-repeat 5px center
+}
+
+#thumbs .nextBtn {
+    right: 00px;
+    background: #fff no-repeat -75px center
+}
+
+.thumb {
+    width: 150px;
+    height: 104px;
+    margin: 0 25px 25px 0;
+    float: left;
+    background: no-repeat center center;
+    background-size: cover;
+    display: block;
+}
+
+.thumb h3 a {
+    width: 150px;
+    height: 104px;
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    position: relative;
+    cursor: pointer;
+    color: #313435;
+}
+
+.thumb h3 a span {
+    display: none;
+    background: rgba(255,255,255,0.9);
+    color: #72777A;
+    text-transform: capitalize;
+    padding: 10px;
+    position: absolute;
+    top: -3px;
+    width: 150px;
+    font-size: 12px;
+    line-height: 1.5em;
+    cursor: pointer
+}
+
+.thumb h3 a span strong {
+	display: block;
+	color: #2196f3;
+}
+
+.thumb h3 a span em {
+    display: block;
+    color: #313435;
+    font-style: normal;
+    cursor: pointer
+}
+
+.thumb h3 a span em.by {
+    display: block;
+    color: #313435;
+    font-style: normal;
+    cursor: pointer
+}
+
+.thumb h3 a span em.dt {
+    display: block;
+    color: #313435;
+    font-style: normal;
+    cursor: pointer
+}
+
+.thumb h3 a:hover span em {
+    cursor: pointer
+}
+
+.thumb h3 a span strong.selected,
+.thumb h3 a span em.selected,
+.thumb h3 a span em.by.selected,
+.thumb h3 a span em.dt.selected {
+    color: #219edf
+}
+
+.ticket {
+    float: left;
+    width: 194px;
+    margin: 0 16px 10px 0;
+    background: #fff;
+    height: 80px;
+    border-top: 3px solid #eee
+}
+
+.ticket h3 {
+    font-size: 11px;
+    padding: 5px 0;
+    margin: 0 0 5px 0;
+    font-style: normal;
+    line-height: 1.1em;
+    border-bottom: 1px solid #eee
+}
+
+.ticket h3 a {
+    color: #888
+}
+
+.ticket h3 a:hover {
+    color: #abaaa6
+}
+
+.ticket h3.selected a {
+    color: #219edf
+}
+
+.ticket h3.selected a:hover {
+    color: #666
+}
+
+.ticket a.cat-selected {
+    color: #219edf
+}
+
+.ticket a.cat-selected:hover {
+    color: #666
+}
+
+.ticket p {
+    font-size: 11px;
+    padding: 0
+}
+
+.ticket p a {
+    text-decoration: underline
+}
+
+.ticket p span.selected {
+    color: #219edf
+}
+
+.listop {
+    padding: 0;
+    background: #fff;
+    float: left;
+    margin: 0
+}
+
+h2.listomatic {
+    float: left;
+    display: block;
+    width: 100%;
+    margin: 10px 0 3px 0;
+    padding: 0 0 2px 0;
+    border-bottom: 1px solid #eee
+}
+
+h3.listomatic {
+    font-size: 11px;
+    margin: 0;
+    padding: 0 0 4px 0;
+    color: #888;
+    width: auto;
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 1
+}
+
+h3.listomatic a {
+    text-decoration: underline;
+    color: #666
+}
+
+h3.listomatic a:hover {
+    text-decoration: none;
+    color: #888
+}
+
+h3.listomatic .date {
+    padding: 1px 10px 0 0;
+    font-weight: normal;
+    color: #bbb;
+    width: 60px;
+    display: block;
+    float: left;
+    font-weight: bold
+}
+
+h3.listomatic .selected {
+    color: #219edf
+}
+
+.sub #nav p.logopin,
+.sub #nav .frame h2,
+.sub #nav p.logopin a,
+#portfolio #nav .frame h2 a,
+#projects #nav .frame h2 a {
+    background: #fff
+}
+
+#projects .frame h2 {
+    display: block
+}
+
+.sub .cola {
+    width: 200px;
+    background: #fff;
+    float: left;
+    padding: 0 0 50px 0;
+    position: relative
+}
+
+.sub .colb {
+    width: 480px;
+    background: #fff;
+    float: left;
+    padding: 0 0 100px 0;
+    position: relative
+}
+
+.sub .colb p {
+    margin-right: 20px
+}
+
+.sub .colc {
+    width: 230px;
+    background: #fff;
+    float: left;
+    padding: 0 0 50px 0;
+    position: relative
+}
+
+.sub .colc p {
+    clear: both;
+    margin: 0 0 20px 0
+}
+
+.sub #content address {
+    width: 170px;
+    float: left
+}
+
+.sub #content address:last-child {
+    width: 220px
+}
+
+.sub #content em {
+    display: block;
+    color: #abaaa6;
+    font-style: normal;
+    font-weight: bold;
+    padding: 8px 0 0 0;
+    margin: 0;
+    float: left;
+    display: block;
+    width: 100%
+}
+
+.sub #content span {
+    color: #abaaa6;
+    color: #abaaa6;
+    padding-right: 5px;
+    float: left
+}
+
+.sub #content span.type {
+    color: #abaaa6;
+    padding-right: 5px;
+    float: left;
+    clear: left
+}
+
+.sub #content span.tel {
+    color: #666
+}
+
+.sub #content address a span {
+    border-bottom: 0
+}
+
+.sub #content a {
+    display: inline;
+    float: left
+}
+
+.sub #content p a,
+.sub #content address a {
+    border-bottom: 1px solid #219edf;
+    padding: 0;
+    margin: 0 0 3px 0;
+    display: block;
+    float: left;
+    clear: both;
+    line-height: 16px;
+    color: #666
+}
+
+.sub #content p a:hover,
+.sub #content address a:hover {
+    border-bottom: 1px solid #888;
+    color: #abaaa6
+}
+
+.sub .cola p,
+.sub .colb p,
+.sub .colc p,
+.sub .cola li,
+.sub .colb li,
+.sub .colc li,
+.sub address {
+    font-size: 11px
+}
+
+.sub #clip {
+    margin: 50px 0 0 0
+}
+
+.sub .ml-logo {
+    display: none
+}
+
+.sub .sub-logo a {
+    padding: 0;
+    height: 20px;
+    width: 200px;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    z-index: 2;
+    overflow: hidden;
+    text-indent: -3000em
+}
+
+.sub .titling {
+    background: #fff;
+    margin: 0 0 0 200px;
+    height: 250px;
+    border-bottom: 1px solid #abaaa6;
+    position: relative;
+    width: 100%
+}
+
+.sub .titling h2 {
+    height: 110px;
+    width: 480px;
+    font-size: 6em;
+    font-weight: bold;
+    overflow: hidden;
+    text-indent: -3000em;
+    padding: 0;
+    margin: 0
+}
+
+.sub #content .titling img {
+    height: auto;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 480px;
+    overflow: hidden;
+    background: #abaaa6;
+    display: block;
+    width: 230px
+}
+
+.sub h4 {
+    margin: 2px 0 15px 0;
+    color: #abaaa6
+}
+
+.sub .linkomat {
+    background: #eee;
+    display: block;
+    float: left;
+    overflow: auto;
+    height: 276px;
+    padding: 0;
+    margin: 0;
+    background: none;
+    width: 230px;
+    z-index: 999;
+    position: absolute;
+    top: 46px;
+    left: 0
+}
+
+.sub .linkomat li a {
+    border-bottom: 1px solid #219edf;
+    padding: 0;
+    margin: 0;
+    display: block;
+    float: left;
+    clear: both;
+    line-height: 15px;
+    color: #666
+}
+
+.sub .linkomat li a:hover {
+    border-bottom: 1px solid #666;
+    color: #abaaa6
+}
+
+#contact.sub .titling {
+    height: 258px
+}
+
+#contact.sub .titling img {
+    width: 710px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden
+}
+
+.bye {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: -500em;
+    left: -500000em;
+    height: 1px;
+    width: 1px;
+    z-index: -1;
+    text-indent: -1000em;
+    overflow: hidden
+}
+
+.clear {
+    clear: both
+}
+
+.left {
+    float: left
+}
+
+.right {
+    float: right
+}
+
+.mob {
+    display: none
+}
+
+@media (max-width: 960px) {
+    body {
+        margin: 0;
+        padding: 0 0 0 0;
+        position: relative;
+        height: 100%;
+        overflow: auto
+    }
+    #content,
+    #nav,
+    .gallery {
+        display: none
+    }
+    #about #content,
+    #contact #content {
+        display: block
+    }
+    #showcase img {
+        display: block
+    }
+    .mob {
+        display: block
+    }
+    .mob .keylink {
+        display: block;
+        clear: both;
+        padding: 0 0 80px 0;
+        margin: 10px 18px;
+        border-top: 1px solid #abaaa6;
+        border-bottom: 1px solid #abaaa6
+    }
+    .mob .keylink li {
+        width: 50%;
+        font-size: 12px
+    }
+    .mob .keylink a {
+        display: block;
+        padding: 10px 0 40px 0;
+        color: #666
+    }
+    .mob .keylink a:hover {
+        color: #abaaa6
+    }
+    .mob .keylink .right {
+        text-align: right
+    }
+    .mob .nav {
+        position: fixed;
+        z-index: 5;
+        height: 48px;
+        background: #fff;
+        padding: 0;
+        top: 0;
+        right: 18px;
+        left: 18px;
+        transition: all .15s ease
+    }
+    .mob .nav .clipper {
+        border-bottom: 1px solid #abaaa6;
+        background: #fff;
+        top: 0;
+        height: 48px;
+        position: absolute;
+        left: 0;
+        right: 0
+    }
+    .mob .nav .logo a {
+        display: block;
+        width: 100%;
+        height: 100%
+    }
+    .mob .nav ul {
+        position: absolute;
+        top: -200px;
+        left: 0
+    }
+    .mob .nav li {
+        padding-bottom: 2px;
+        font-size: 13px
+    }
+    .mob .nav.active {
+        height: 218px;
+        border-bottom: 1px solid #abaaa6
+    }
+    .mob .nav.active ul {
+        position: absolute;
+        top: 78px
+    }
+    .mob .social {
+        padding: 0 18px 50px 18px
+    }
+    .mob .social li {
+        font-weight: bold;
+        font-size: 12px
+    }
+    .mob .social li a {
+        color: #666
+    }
+    .mob .social li a:hover {
+        color: #219edf
+    }
+    .mob .social li.copy {
+        color: #abaaa6
+    }
+    .mob.mob_gallery {
+        padding: 0 18px 0;
+        background: #fff
+    }
+    .mob.mob_gallery li {
+        padding: 18px 0 0 0
+    }
+    .mob.mob_gallery img {
+        display: block;
+        width: 100%;
+        position: relative
+    }
+    .project_detail {
+        padding: 18px 0 0 0
+    }
+    .project_detail p {
+        color: #666;
+        font-size: 12px;
+        width: 90%
+    }
+    .project_detail p span {
+        color: #abaaa6
+    }
+    .project_detail p:last-child {
+        padding-bottom: 0
+    }
+    .project_detail.projects {
+        padding: 0 0 18px 0;
+        border-bottom: 1px solid #eee
+    }
+    .project_detail.projects ul {
+        float: left;
+        clear: both;
+        width: 100%
+    }
+    .project_detail.projects a {
+        color: #666
+    }
+    .project_detail.projects:last-child {
+        border: 0;
+        margin-bottom: 30px
+    }
+    #showcase .nav li.showcase a,
+    #about .nav li.about a,
+    #contact .nav li.contact a,
+    #projects .nav li.projects a,
+    #portfolio .nav li.portfolio a,
+    #downloads .nav li.downloads a {
+        text-decoration: none;
+        color: #888
+    }
+    #showcase .nav li.showcase a:hover,
+    #about .nav li.about a:hover,
+    #contact .nav li.contact a:hover,
+    #projects .nav li.projects a:hover,
+    #portfolio .nav li.portfolio a:hover,
+    #downloads .nav li.downloads a:hover {
+        color: #abaaa6
+    }
+    .sub #content {
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: auto;
+        position: relative;
+        overflow: auto;
+        padding: 18px
+    }
+    .sub .cola {
+        width: 100%;
+        background: none;
+        float: none;
+        padding: 0 0 18px 0;
+        position: relative;
+        height: auto
+    }
+    .sub .colb {
+        width: 100%;
+        background: none;
+        float: none;
+        padding: 0 0 18px 0;
+        position: relative;
+        height: auto
+    }
+    .sub .colc {
+        width: 100%;
+        background: none;
+        float: none;
+        padding: 0 0 18px 0;
+        position: relative;
+        height: auto
+    }
+    .sub .colb p {
+        margin-right: 18px
+    }
+    .sub .colc p {
+        clear: both;
+        margin: 0 0 18px 0
+    }
+    .sub #content address {
+        width: 100%;
+        float: none;
+        padding-bottom: 20px;
+        height: auto
+    }
+    .sub #content em {
+        display: block;
+        color: #abaaa6;
+        font-style: normal;
+        font-weight: bold;
+        padding: 0;
+        margin: 10px 0 0 0;
+        float: left;
+        width: 100%
+    }
+    .sub #content span {
+        color: #abaaa6;
+        padding-right: 5px;
+        float: left
+    }
+    .sub #content span.type {
+        color: #abaaa6;
+        padding-right: 5px;
+        float: left;
+        clear: left
+    }
+    .sub #content a {
+        display: inline;
+        float: left
+    }
+    .sub #content address a span {
+        border-bottom: 0
+    }
+    .sub .cola p,
+    .sub .colb p,
+    .sub .colc p,
+    .sub .cola li,
+    .sub .colb li,
+    .sub .colc li,
+    .sub address {
+        font-size: 12px
+    }
+    .sub #clip {
+        margin: 0 0 0 0
+    }
+    .sub .sub-logo a {
+        display: none
+    }
+    .sub .titling {
+        margin: 0;
+        height: auto;
+        position: relative;
+        width: 100%
+    }
+    .sub .titling h2 {
+        height: auto;
+        width: 100%;
+        font-size: 6em;
+        font-weight: bold;
+        overflow: hidden;
+        text-indent: -3000em;
+        padding: 0;
+        margin: 0
+    }
+    .sub #content .titling img {
+        height: auto;
+        margin: 0;
+        padding: 0;
+        z-index: 1;
+        overflow: hidden;
+        background: #abaaa6;
+        width: 100%
+    }
+    .sub h4 {
+        margin: 0 0 18px 0;
+        color: #abaaa6;
+        font-size: 12px;
+        clear: both
+    }
+    .sub .linkomat {
+        background: #eee;
+        display: block;
+        float: left;
+        overflow: auto;
+        height: auto;
+        padding: 0;
+        margin: 0 0 50px 0;
+        background: none;
+        width: 100%;
+        z-index: 1;
+        position: relative;
+        top: auto;
+        left: auto
+    }
+    .sub .linkomat li a {
+        border-bottom: 1px solid #219edf;
+        padding: 0;
+        margin: 0;
+        display: block;
+        float: left;
+        clear: both;
+        line-height: 15px;
+        color: #666
+    }
+    .sub .linkomat li a:hover {
+        border-bottom: 1px solid #666;
+        color: #abaaa6
+    }
+    .sub #content {
+        margin: 0;
+        position: relative;
+        overflow: auto
+    }
+    #contact.sub .titling {
+        height: auto;
+        margin-bottom: 18px;
+        overflow: hidden
+    }
+    #contact.sub .titling img {
+        width: 200%;
+        height: auto;
+        position: relative;
+        top: auto;
+        left: auto;
+        overflow: auto
+    }
+    #about.sub .titling {
+        border: 0;
+        margin-bottom: 40px
+    }
+    #about.sub .titling img {
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: auto;
+        left: auto;
+        overflow: auto;
+        margin-top: 40px
+    }
+}
+
+.jspContainer {
+    overflow: hidden;
+    position: relative
+}
+
+.jspPane {
+    position: absolute
+}
+
+.jspVerticalBar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 5px;
+    height: 100%;
+    background: #fff
+}
+
+.jspHorizontalBar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 16px;
+    background: #fff
+}
+
+.jspVerticalBar *,
+.jspHorizontalBar * {
+    margin: 0;
+    padding: 0
+}
+
+.jspCap {
+    display: none
+}
+
+.jspHorizontalBar .jspCap {
+    float: left
+}
+
+.jspTrack {
+    background: #eee;
+    position: relative
+}
+
+.jspDrag {
+    background: #ccc;
+    position: relative;
+    top: 0;
+    left: 0;
+    cursor: pointer
+}
+
+.jspHorizontalBar .jspTrack,
+.jspHorizontalBar .jspDrag {
+    float: left;
+    height: 100%
+}
+
+.jspArrow {
+    background: #50506d;
+    text-indent: -20000px;
+    display: block;
+    cursor: pointer
+}
+
+.jspArrow.jspDisabled {
+    cursor: default;
+    background: #80808d
+}
+
+.jspVerticalBar .jspArrow {
+    height: 16px
+}
+
+.jspHorizontalBar .jspArrow {
+    width: 16px;
+    float: left;
+    height: 100%
+}
+
+.jspVerticalBar .jspArrow:focus {
+    outline: none
+}
+
+.jspCorner {
+    background: #eeeeee;
+    float: left;
+    height: 100%
+}
+
+* html .jspCorner {
+    margin: 0 -3px 0 0
+}

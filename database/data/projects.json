@@ -1,0 +1,338 @@
+[
+	{
+		"name": "Beijing Garden Expo",
+		"architect": "BAM",
+		"location": "Beijing",
+		"date": "07-06-2017"
+	},
+	{
+		"name": "ARRI Beijing",
+		"architect": "anySCALE",
+		"location": "Beijing",
+		"date": "30-10-2014"
+	},
+	{
+		"name": "Audemars Piguet Exhibition Stand",
+		"architect": "Audemars Piguet",
+		"location": "Hong Kong",
+		"date": "08-02-2017"
+	},
+	{
+		"name": "Daxing Garden",
+		"architect": "BAM",
+		"location": "Daxing",
+		"date": "08-08-2016"
+	},
+	{
+		"name": "Cloud Sculpture",
+		"architect": "BAM",
+		"location": "Kunming",
+		"date": "19-03-2016"
+	},
+	{
+		"name": "Milu Mall",
+		"architect": "BAM",
+		"location": "Beijing",
+		"date": "11-05-2016"
+	},
+	{
+		"name": "Zhongyu Plaza Digital Facade",
+		"architect": "BAM",
+		"location": "Chongqing",
+		"date": "17-04-2016"
+	},
+	{
+		"name": "China Central Mall",
+		"architect": "KPF",
+		"location": "Beijing",
+		"date": "21-01-2015"
+	},
+	{
+		"name": "Bibo",
+		"architect": "Substance",
+		"location": "Hong Kong",
+		"date": "22-06-2014"
+	},
+	{
+		"name": "Seat Mockup Showroom",
+		"architect": "Metadesign",
+		"location": "Beijing",
+		"date": "11-10-2011"
+	},
+	{
+		"name": "Beetle Popup",
+		"architect": "Metadesign",
+		"location": "Beijing",
+		"date": "07-09-2012"
+	},
+	{
+		"name": "Mercedes Me Café",
+		"architect": "MerzMerz+",
+		"location": "Beijing",
+		"date": "03-05-2016"
+	},
+	{
+		"name": "Mercedes Me Bar and Restaurant",
+		"architect": "MerzMerz+",
+		"location": "Beijing",
+		"date": "30-06-2016"
+	},
+	{
+		"name": "Mercedes Me Showroom",
+		"architect": "MerzMerz+",
+		"location": "Beijing",
+		"date": "03-05-2016"
+	},
+	{
+		"name": "Boldton",
+		"architect": "Nelson Chow",
+		"location": "Beijing",
+		"date": "08-10-2013"
+	},
+	{
+		"name": "Pak Loh",
+		"architect": "Nelson Chow",
+		"location": "Hong Kong",
+		"date": "05-02-2014"
+	},
+	{
+		"name": "Dior ",
+		"architect": "Bureau Betak",
+		"location": "Beijing",
+		"date": "18-12-2015"
+	},
+	{
+		"name": "Mercedes Daimler R&D Centre",
+		"architect": "anySCALE",
+		"location": "Beijing",
+		"date": "07-11-2014"
+	},
+	{
+		"name": "Summa Show Flat",
+		"architect": "Nelson Chow",
+		"location": "Hong Kong",
+		"date": "04-01-2014"
+	},
+	{
+		"name": "APM Cinema",
+		"architect": "OFT",
+		"location": "Beijing",
+		"date": "13-05-2016"
+	},
+	{
+		"name": "Oriental Plaza",
+		"architect": "OFT",
+		"location": "Beijing",
+		"date": "14-06-2016"
+	},
+	{
+		"name": "Vanke Showroom",
+		"architect": "Parklex",
+		"location": "Qingdao",
+		"date": "04-12-2011"
+	},
+	{
+		"name": "Vanke Showroom",
+		"architect": "Parklex",
+		"location": "Tianjin",
+		"date": "28-10-2011"
+	},
+	{
+		"name": "Government office ",
+		"architect": "Parklex",
+		"location": "Beijing",
+		"date": "16-02-2012"
+	},
+	{
+		"name": "798 Cinema",
+		"architect": "NAO",
+		"location": "Beijing",
+		"date": "27-12-2016"
+	},
+	{
+		"name": "Legend",
+		"architect": "NAO",
+		"location": "Beijing",
+		"date": "16-07-2016"
+	},
+	{
+		"name": "Green Tea House",
+		"architect": "JinR",
+		"location": "Beijing",
+		"date": "26-09-2014"
+	},
+	{
+		"name": "Temple Restaurant",
+		"architect": "Hassell",
+		"location": "Beijing",
+		"date": "24-09-2014"
+	},
+	{
+		"name": "Okra",
+		"architect": "NAO",
+		"location": "Beijing",
+		"date": "25-09-2014"
+	},
+	{
+		"name": "Wework Guanghua Lu",
+		"architect": "Wework",
+		"location": "Beijing",
+		"date": "16-05-2017"
+	},
+	{
+		"name": "Z-Park",
+		"architect": "Woods Bagot",
+		"location": "Beijing",
+		"date": "09-05-2016"
+	},
+	{
+		"name": "Yanai Foundation",
+		"architect": "Yanai",
+		"location": "Haikou",
+		"date": "10-09-2012"
+	},
+	{
+		"name": "Yanai Foundation",
+		"architect": "Yanai",
+		"location": "Haikou",
+		"date": "11-09-2012"
+	},
+	{
+		"name": "Yanai Foundation",
+		"architect": "Yanai",
+		"location": "Sanya",
+		"date": "12-09-2012"
+	},
+	{
+		"name": "Yanai Foundation",
+		"architect": "Yanai",
+		"location": "Lingshui",
+		"date": "09-01-2013"
+	},
+	{
+		"name": "Yanai Foundation",
+		"architect": "Yanai",
+		"location": "Wuhan",
+		"date": "15-01-2013"
+	},
+	{
+		"name": "Yanai Foundation",
+		"architect": "Yanai",
+		"location": "Jiangxi",
+		"date": "01-02-2013"
+	},
+	{
+		"name": "Central Plaza Mall Roof",
+		"architect": "Palram",
+		"location": "Beijing",
+		"date": "24-05-2017"
+	},
+	{
+		"name": "Great Wall Vinyard",
+		"architect": "A+A",
+		"location": "Yinchuan",
+		"date": "12-09-2015"
+	},
+	{
+		"name": "Digua Community",
+		"architect": "Zhou Zishu",
+		"location": "Beijing",
+		"date": "02-03-2016"
+	},
+	{
+		"name": "Creativo Mall",
+		"architect": "Cotefa",
+		"location": "Tianjin",
+		"date": "23-09-2016"
+	},
+	{
+		"name": "Euroidea Showroom",
+		"architect": "Chiasmus Partners",
+		"location": "Beijing",
+		"date": "10-12-2016"
+	},
+	{
+		"name": "Mosto",
+		"architect": "Coromoto",
+		"location": "Beijing",
+		"date": "10-10-2015"
+	},
+	{
+		"name": "Palace Cinema",
+		"architect": "OFT",
+		"location": "Dalian",
+		"date": "15-06-2016"
+	},
+	{
+		"name": "UA Cinema",
+		"architect": "OFT",
+		"location": "Foshan",
+		"date": "05-06-2016"
+	},
+	{
+		"name": "Cinecity IMAX",
+		"architect": "OFT",
+		"location": "Shantou",
+		"date": "07-06-2016"
+	},
+	{
+		"name": "Stellar Int. IMAX",
+		"architect": "OFT",
+		"location": "Shenzhen",
+		"date": "07-06-2016"
+	},
+	{
+		"name": "Vanke Showroom",
+		"architect": "Parklex",
+		"location": "Changchun",
+		"date": "22-05-2013"
+	},
+	{
+		"name": "Changchun Diesel Residental",
+		"architect": "Chiasmus Partners",
+		"location": "Changchun",
+		"date": "15-12-2013"
+	},
+	{
+		"name": "Chiasmus Diesel Factory",
+		"architect": "Chiasmus Partners",
+		"location": "Changchun",
+		"date": "15-12-2013"
+	},
+	{
+		"name": "Flatwhite Cafe",
+		"architect": "NAO",
+		"location": "Beijing",
+		"date": "21-05-2016"
+	},
+	{
+		"name": "Hi Hi Hot Pot",
+		"architect": "NAO",
+		"location": "Beijing",
+		"date": "11-10-2015"
+	},
+	{
+		"name": "Vanke Ski Resort",
+		"architect": "Woods Bagot",
+		"location": "Beijing",
+		"date": "14-10-2014"
+	},
+	{
+		"name": "CCTV Building",
+		"architect": "OMA",
+		"location": "Beijing",
+		"date": "18-12-2010"
+	},
+	{
+		"name": "Peaks A House",
+		"architect": "Most Architecture",
+		"location": "London",
+		"date": "19-04-2018"
+	},
+	{
+		"name": "Fulham House",
+		"architect": "Private",
+		"location": "London",
+		"date": "01-05-2018"
+	}
+]

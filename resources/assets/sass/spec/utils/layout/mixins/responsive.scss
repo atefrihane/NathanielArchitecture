@@ -1,0 +1,10 @@
+@mixin generateResponsive() {
+	@each $breakpoint in $breakpoints {
+		$breakpointAlias: nth($breakpoint, 1) !global;
+		$breakpointCondition: nth($breakpoint, 2);
+		@include mediaQueryCondition($breakpointAlias) {
+			@content;
+		}
+		$breakpointAlias: null !global;
+	}
+}

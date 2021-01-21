@@ -1,0 +1,61 @@
+.page-container {
+	min-height: 100vh;
+	padding-left: $offscreen-size;
+	transition: all 0.2s ease;
+	@include between($breakpoint-md, $breakpoint-xl) {
+		padding-left: $collapsed-size;
+	}
+	@include to($breakpoint-md) {
+		padding-left: 0;
+	}
+}
+
+.main-content {
+	padding: 85px 20px 20px;
+	min-height: calc(100vh - 61px);
+	@include to($breakpoint-md) {
+		padding: 85px 5px 5px;
+	}
+}
+
+.remain-height {
+	height: calc(100vh - 126px);
+}
+
+.full-container {
+	left: $offscreen-size;
+	min-height: calc(100vh - #{$header-height});
+	position: absolute;
+	right: 0;
+	top: $header-height;
+	transition: all 0.2s ease;
+	@include between($breakpoint-md, $breakpoint-xl) {
+		left: 0;
+		padding-left: $collapsed-size;
+	}
+	@include to($breakpoint-md) {
+		left: 0;
+	}
+}
+
+.is-collapsed {
+	.page-container {
+		padding-left: $collapsed-size;
+		@include to($breakpoint-md) {
+			padding-left: 0;
+		}
+		@include between($breakpoint-md, $breakpoint-xl) {
+			padding-left: $offscreen-size;
+		}
+	}
+	.full-container {
+		left: $collapsed-size;
+		@include to($breakpoint-md) {
+			left: 0;
+		}
+		@include between($breakpoint-md, $breakpoint-xl) {
+			left: $offscreen-size;
+			padding-left: 0;
+		}
+	}
+}
