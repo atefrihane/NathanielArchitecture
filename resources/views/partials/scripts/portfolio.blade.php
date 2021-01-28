@@ -1,8 +1,15 @@
 <script>
 
-	$(window).on('load', function() {
-		$('.loader').fadeOut(300);
-	});
+	
+$(window).on('load', function() {
+
+	
+$(".loader").fadeOut(3000, function() {
+$("#side-menu").fadeIn(1000); 
+$("#main-div").fadeIn(1000);          
+});
+});
+
 
 		var ww = $(window).width();
 	var limit = 992;

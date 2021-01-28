@@ -1,4 +1,4 @@
-<section id="about-section" class="scrollingpage scrollingpage-about about-section">
+<section id="about-section" class="scrollingpage  about-section">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg content-section">
@@ -52,10 +52,11 @@
 				</div>
 				<div class="col-lg content-section">
 					<h3>Website and all images</h3>
-					<p>&copy; 2018</p>
+					<p>&copy; {{ now()->year }}</p>
 					<p>Nathaniel McMahon Photography</p>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
+

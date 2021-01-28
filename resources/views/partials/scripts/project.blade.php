@@ -1,6 +1,14 @@
 <script>
+$(window).on('load', function() {
 
-		var ww = $(window).width();
+	
+$(".loader").fadeOut(3000, function() {
+$("#side-menu").fadeIn(1000); 
+$("#main-div").fadeIn(1000);          
+});
+});
+
+	var ww = $(window).width();
 	var limit = 992;
 
 function refresh() {
@@ -26,7 +34,7 @@ $(window).resize(function() {
 	$(document).ready(function() {
 		slide('slidebox', 5000, 300);
 
-		$('.loader').css('display', 'none');
+	
 
 		$('#side-menu').mouseover(function() {
 			$('#main-nav').css('visibility', 'visible');

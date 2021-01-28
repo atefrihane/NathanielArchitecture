@@ -1,4 +1,4 @@
-<div id="mobile-side-menu" class="mobile-side-menu">
+{{-- <div id="mobile-side-menu" class="mobile-side-menu">
 	<div class="logo-main" data-menuanchor="home">
 		<a href="/"><img src="{{ url('images/icons/logo.svg') }}"></a>
 	</div>
@@ -18,7 +18,7 @@
 			</li>
 		</ul>
 	</nav>
-</div>
+</div> --}}
 
 @if (request()->is('/'))
 	<div id="side-menu" class="side-menu">
@@ -66,7 +66,7 @@
 				</li>
 				<li id="backward-menu" class="control-menu">
 					<div>
-						<img src="{{ url('images/icons/previous.svg') }}" onclick="before()">
+						<img src="{{ url('images/icons/previous.svg') }}" onclick="after()">
 					</div>
 				</li>
 				<li id="fullscreen-menu" class="control-menu">
@@ -111,7 +111,7 @@
 				<li><strong>Location</strong><br><a href="" id="flocation" style="color: #72777a;"><span id="project-info-location"></span></a></li>
 			</ul>
 		</div>
-		<div id="page-controls" class="page-controls">
+		<div id="page-controls" class="page-controls controls-portfolio">
 			<ul class="list-unstyled menu-list">
 				<li class="turnback">
 					<img src="{{ url('images/icons/back.svg') }}" onclick="location.href='/'">
@@ -178,7 +178,7 @@
 				<li><strong>Location</strong><br><a href="/?section=projects&slocation={{ str_slug($project->location) }}" style="color: #72777a;">{{ $project->location }}</a></li>
 			</ul>
 		</div>
-		<div id="page-controls" class="page-controls">
+		<div id="page-controls" class="page-controls controls-portfolio">
 			<ul class="list-unstyled menu-list">
 				<li class="turnback">
 					<img src="{{ url('images/icons/back.svg') }}" onclick="location.href='/'">

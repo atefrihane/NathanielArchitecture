@@ -18,14 +18,15 @@
     @endif
 </head>
 <body id="projects" class="main">
+
 	<div class="loader">
-		<img src="{{ url('images/icons/loading-logo.gif') }}">
+		{{-- <img src="{{ url('images/icons/loading-logo.gif') }}" style="vertical-align: middle;"> --}}
 	</div>
 	@yield('content')
 	@include('partials.sidebar')
-	<script src="{{ mix('/js/manifest.js') }}"></script>
-	<script src="{{ mix('/js/vendor.js') }}"></script>
-	<script src="{{ mix('/js/app.js') }}"></script>
+	<script src="{{ asset('/js/manifest.js') }}"></script>
+	<script src="{{ asset('/js/vendor.js') }}"></script>
+	<script src="{{ asset('/js/app.js') }}"></script>
 	@yield('scripts')
 </body>
 </html>

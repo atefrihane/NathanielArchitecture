@@ -6,11 +6,11 @@
 		@include('pages.partials.projects')
 		@include('pages.partials.about')
 	</div>
-	<div class="mobile-main">
+	{{-- <div class="mobile-main">
 		@include('pages.partials.slider-mobile')
 		@include('pages.partials.projects-mobile')
 		@include('pages.partials.about-mobile')
-	</div>
+	</div> --}}
 @endsection
 
 @section('scripts')

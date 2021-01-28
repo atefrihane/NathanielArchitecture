@@ -20,7 +20,7 @@
 			</div>
 		</div>
 	</div>
-	<div id="portfolio-mobile" class="portfolio-page-mobile">
+	{{-- <div id="portfolio-mobile" class="portfolio-page-mobile">
 		@foreach ($photos as $photo)
 			<img src="{{ url('storage/photos/' . $photo->project->identifier . '/' . $photo->filename) }}">
 			<a href="/projects/{{ $photo->project->slug }}">
@@ -30,7 +30,7 @@
 				<p>{{ $photo->project->date->toFormattedDateString() }}</p>
 			</a>
 		@endforeach
-	</div>
+	</div> --}}
 	<div class="info-pdf">
 		<img src="{{ url('images/icons/info.svg') }}" alt="image-info">
 	</div>
